@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>个人作品展示</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- 导航栏 -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">Portfolio</a>
+      <ul class="nav-links">
+        <li><a href="#about">关于我</a></li>
+        <li><a href="#experience">经历</a></li>
+        <li><a href="#projects">作品</a></li>
+        <li><a href="#skills">技能</a></li>
+        <li><a href="#contact">联系</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="菜单">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- 首屏 Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-particles"></div>
+    <div class="hero-content">
+      <p class="hero-greeting">Hello, 我是</p>
+      <h1 class="hero-name">
+        <span class="char" style="--i:0">你</span>
+        <span class="char" style="--i:1">的</span>
+        <span class="char" style="--i:2">名</span>
+        <span class="char" style="--i:3">字</span>
+      </h1>
+      <p class="hero-tagline">用代码与创意构建精彩数字体验</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">
+          浏览作品
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-outline">联系我</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="floating-shape shape-1"></div>
+      <div class="floating-shape shape-2"></div>
+      <div class="floating-shape shape-3"></div>
+      <div class="hero-avatar">
+        <div class="avatar-placeholder">👨‍💻</div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-indicator">
+      <span>向下滚动</span>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </a>
+  </section>
+
+  <!-- 关于我 -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">关于我</span>
+        <h2 class="section-title">个人简介</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h3>个人优势</h3>
+          <ul class="about-list">
+            <li>
+              <span class="list-icon">✦</span>
+              <span>具备全栈开发能力，擅长将复杂业务逻辑转化为清晰、高效的技术方案，提升系统性能与用户体验。</span>
+            </li>
+            <li>
+              <span class="list-icon">✦</span>
+              <span>拥有 Web 端、移动端、小程序等多端项目经验，能够根据业务场景灵活选择技术栈与架构方案。</span>
+            </li>
+            <li>
+              <span class="list-icon">✦</span>
+              <span>精通前端工程化体系搭建，善于构建可复用组件库与工具链，提升团队协作效率与代码质量。</span>
+            </li>
+            <li>
+              <span class="list-icon">✦</span>
+              <span>熟练运用 AI 工具辅助开发与问题排查，缩短开发周期，提升交付质量。</span>
+            </li>
+            <li>
+              <span class="list-icon">✦</span>
+              <span>具备跨部门沟通与推动能力，能够高效对接产品、设计，确保方案高质量落地。</span>
+            </li>
+            <li>
+              <span class="list-icon">✦</span>
+              <span>关注技术趋势与前沿动态，持续学习并引入新技术、新方法，保持技术竞争力。</span>
+            </li>
+          </ul>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-number">5+</span>
+            <span class="stat-label">年开发经验</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">30+</span>
+            <span class="stat-label">完成项目</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">杭州</span>
+            <span class="stat-label">当前位置</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">在职</span>
+            <span class="stat-label">当前状态</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 工作经历 -->
+  <section class="experience section" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">工作经历</span>
+        <h2 class="section-title">职业历程</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2022.6 - 至今</div>
+          <div class="timeline-content">
+            <span class="timeline-type">全职</span>
+            <h3>高级前端开发工程师</h3>
+            <p class="timeline-company">某互联网科技公司</p>
+            <ul>
+              <li>负责核心业务系统的前端架构设计与技术选型，推动项目技术方案落地。</li>
+              <li>主导前端工程化建设，搭建组件库与脚手架工具，提升团队开发效率 40%。</li>
+              <li>参与产品需求评审与技术方案设计，确保前后端协作高效顺畅。</li>
+              <li>组织团队技术分享与 Code Review，推动团队整体技术水平提升。</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2020.3 - 2022.5</div>
+          <div class="timeline-content">
+            <span class="timeline-type">全职</span>
+            <h3>前端开发工程师</h3>
+            <p class="timeline-company">某科技公司</p>
+            <ul>
+              <li>负责多款 Web 应用的前端开发与维护，涵盖后台管理系统、数据可视化大屏等。</li>
+              <li>参与移动端 H5 与小程序开发，从零搭建项目并完成上线迭代。</li>
+              <li>优化页面性能与加载速度，核心页面首屏时间降低 50%。</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 作品集 -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">作品集</span>
+        <h2 class="section-title">精选项目</h2>
+        <p class="section-desc">涵盖 Web 应用、数据可视化、小程序、移动端等多领域作品。</p>
+      </div>
+      <div class="project-grid">
+        <div class="project-card">
+          <div class="project-thumb" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+            <div class="project-icon">🖥️</div>
+            <span class="project-tag">Web 应用</span>
+          </div>
+          <div class="project-info">
+            <h4>数据可视化大屏</h4>
+            <p>实时数据监控与可视化展示平台，支持多维度数据呈现与交互。</p>
+            <a href="#" class="project-link">查看详情 →</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-thumb" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+            <div class="project-icon">📱</div>
+            <span class="project-tag">移动端</span>
+          </div>
+          <div class="project-info">
+            <h4>电商小程序</h4>
+            <p>全功能电商小程序，支持商品浏览、购物车、订单管理等核心功能。</p>
+            <a href="#" class="project-link">查看详情 →</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-thumb" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+            <div class="project-icon">⚙️</div>
+            <span class="project-tag">后台系统</span>
+          </div>
+          <div class="project-info">
+            <h4>后台管理系统</h4>
+            <p>企业级中后台管理系统，包含权限管理、数据报表、流程审批等模块。</p>
+            <a href="#" class="project-link">查看详情 →</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-thumb" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+            <div class="project-icon">🎨</div>
+            <span class="project-tag">官网</span>
+          </div>
+          <div class="project-info">
+            <h4>企业品牌官网</h4>
+            <p>响应式企业官网设计，注重品牌形象展示与用户体验优化。</p>
+            <a href="#" class="project-link">查看详情 →</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-thumb" style="background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);">
+            <div class="project-icon">🤖</div>
+            <span class="project-tag">AI 应用</span>
+          </div>
+          <div class="project-info">
+            <h4>AI 聊天助手</h4>
+            <p>基于大语言模型的智能对话应用，支持多轮对话与上下文理解。</p>
+            <a href="#" class="project-link">查看详情 →</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-thumb" style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);">
+            <div class="project-icon">📊</div>
+            <span class="project-tag">工具</span>
+          </div>
+          <div class="project-info">
+            <h4>前端工具集</h4>
+            <p>开发常用工具集合，包含代码生成、格式转换、性能分析等实用功能。</p>
+            <a href="#" class="project-link">查看详情 →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 项目清单 -->
+  <section class="project-list section" id="project-list">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">项目清单</span>
+        <h2 class="section-title">项目案例</h2>
+        <p class="section-desc">参与设计开发的项目清单，涵盖 Web、小程序、数据可视化等多个领域。</p>
+      </div>
+      <div class="list-grid">
+        <div class="list-group">
+          <h3>Web 应用</h3>
+          <ul>
+            <li>企业数据驾驶舱系统</li>
+            <li>智慧园区管理平台</li>
+            <li>政务可视化决策平台</li>
+            <li>实时监控预警系统</li>
+            <li>一体化运维监管平台</li>
+          </ul>
+        </div>
+        <div class="list-group">
+          <h3>小程序</h3>
+          <ul>
+            <li>电商商城小程序</li>
+            <li>社区服务小程序</li>
+            <li>预约管理小程序</li>
+            <li>企业展示小程序</li>
+          </ul>
+        </div>
+        <div class="list-group">
+          <h3>数据可视化</h3>
+          <ul>
+            <li>电力综合态势大屏</li>
+            <li>交通运行指挥大屏</li>
+            <li>城市大脑数字驾驶舱</li>
+            <li>应急指挥调度大屏</li>
+            <li>数字校园可视化大屏</li>
+          </ul>
+        </div>
+        <div class="list-group">
+          <h3>移动端 H5</h3>
+          <ul>
+            <li>营销活动 H5 页面</li>
+            <li>产品展示 H5 页面</li>
+            <li>问卷调查 H5 应用</li>
+            <li>在线报名 H5 系统</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 技能 -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">技术栈</span>
+        <h2 class="section-title">专业技能</h2>
+      </div>
+      <div class="skills-cloud">
+        <span class="skill-tag">JavaScript</span>
+        <span class="skill-tag">TypeScript</span>
+        <span class="skill-tag">Vue.js</span>
+        <span class="skill-tag">React</span>
+        <span class="skill-tag">Node.js</span>
+        <span class="skill-tag">Webpack</span>
+        <span class="skill-tag">Vite</span>
+        <span class="skill-tag">CSS/Sass</span>
+        <span class="skill-tag">Tailwind</span>
+        <span class="skill-tag">ECharts</span>
+        <span class="skill-tag">Three.js</span>
+        <span class="skill-tag">小程序</span>
+        <span class="skill-tag">UniApp</span>
+        <span class="skill-tag">Git</span>
+        <span class="skill-tag">Docker</span>
+        <span class="skill-tag">AI 工具</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系 -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">开始合作</span>
+        <h2 class="section-title">联系我</h2>
+        <p class="section-desc">有项目想法或合作意向？随时与我联系，让我们一起创造精彩。</p>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:example@email.com" class="contact-card">
+          <div class="contact-icon">📧</div>
+          <span>example@email.com</span>
+        </a>
+        <a href="tel:13800000000" class="contact-card">
+          <div class="contact-icon">📞</div>
+          <span>138 0000 0000</span>
+        </a>
+        <a href="#" class="contact-card">
+          <div class="contact-icon">💬</div>
+          <span>微信联系</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
