@@ -1,0 +1,8 @@
+{
+  "name": "数据可视化大屏",
+  "description": "实时数据监控与可视化展示平台，支持多维度数据呈现与交互。",
+  "category": "Web 应用",
+  "icon": "🖥️",
+  "gradient": ["#667eea", "#764ba2"],
+  "images": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "后台管理系统",
+  "description": "企业级中后台管理系统，包含权限管理、数据报表、流程审批等模块。",
+  "category": "后台系统",
+  "icon": "⚙️",
+  "gradient": ["#4facfe", "#00f2fe"],
+  "images": []
+}

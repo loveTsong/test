@@ -1,0 +1,8 @@
+{
+  "name": "前端工具集",
+  "description": "开发常用工具集合，包含代码生成、格式转换、性能分析等实用功能。",
+  "category": "工具",
+  "icon": "📊",
+  "gradient": ["#ffecd2", "#fcb69f"],
+  "images": []
+}
